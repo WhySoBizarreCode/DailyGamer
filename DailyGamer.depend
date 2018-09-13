@@ -1,11 +1,16 @@
 # depslib dependency file v1.0
-1536799993 source:/home/alien/Documents/DailyGamerGit/DailyGamer/buttons.cpp
+1536874259 source:/home/alien/Documents/DailyGamerGit/DailyGamer/buttons.cpp
 	"Header.h"
 	<iostream>
 
-1536800557 /home/alien/Documents/DailyGamerGit/DailyGamer/Header.h
+1536874228 /home/alien/Documents/DailyGamerGit/DailyGamer/Header.h
 	<gtkmm/window.h>
+	<gtkmm/toolbar.h>
+	<gtkmm/toolbutton.h>
+	<gtkmm/box.h>
 	<gtkmm/button.h>
+	<gtkmm/frame.h>
+	<gtkmm/label.h>
 
 1513559420 /usr/include/gtkmm-3.0/gtkmm/window.h
 	<glibmm/ustring.h>
@@ -4236,7 +4241,84 @@
 	<gtkmm/action.h>
 	<glibmm/interface.h>
 
-1536800127 source:/home/alien/Documents/DailyGamerGit/DailyGamer/main.cpp
+1536874202 source:/home/alien/Documents/DailyGamerGit/DailyGamer/main.cpp
 	"Header.h"
 	<gtkmm/application.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/box.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/container.h>
+	<gtkmm/orientable.h>
+	<gtk/gtk.h>
+	<gtkmm/hvbox.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/orientable.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/interface.h>
+	<gtkmm/enums.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/hvbox.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/box.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/toolbar.h
+	<gtkmmconfig.h>
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/toolshell.h>
+	<gtkmm/toolitem.h>
+	<gtkmm/toolbutton.h>
+	<gtkmm/toggletoolbutton.h>
+	<gtkmm/container.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/toolshell.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/interface.h>
+	<gtkmm/enums.h>
+	<gtkmm/sizegroup.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/sizegroup.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<vector>
+	<glibmm/object.h>
+	<gtkmm/widget.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/toolitem.h
+	<gtkmmconfig.h>
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/bin.h>
+	<gtkmm/activatable.h>
+	<gtkmm/sizegroup.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/toolbutton.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/toolitem.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/toggletoolbutton.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/toolbutton.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/frame.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/bin.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/label.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/misc.h>
+	<pangomm/attrlist.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/misc.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/widget.h>
 

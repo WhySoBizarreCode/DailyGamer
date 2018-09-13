@@ -1,8 +1,29 @@
 
 #include <gtkmm/window.h>
+
+#include <gtkmm/toolbar.h>
+#include <gtkmm/toolbutton.h>
+#include <gtkmm/box.h>
 #include <gtkmm/button.h>
+
+
+#include <gtkmm/frame.h>
+#include <gtkmm/label.h>
+
 using namespace std;
 
+
+class AboutWindow : public Gtk::Window
+{
+public:
+    AboutWindow();
+    virtual ~AboutWindow();
+
+protected:
+};
+
+
+//*Main*
 class win : public Gtk::Window
 {
 public:
@@ -12,12 +33,14 @@ public:
 protected:
   //Signal handlers:
   void on_button_clicked();
+  void on_Infobutton_click();
 
   //Child widgets:
   Gtk::Button m_button;
+  Gtk::Button but2;
+  Gtk::Box box;
+  AboutWindow windi;
 };
-
-
 
 string game();
 void unistallgm();
