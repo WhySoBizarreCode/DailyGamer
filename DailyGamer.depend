@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1536874259 source:/home/alien/Documents/DailyGamerGit/DailyGamer/buttons.cpp
+1536883793 source:/home/alien/Documents/DailyGamerGit/DailyGamer/buttons.cpp
 	"Header.h"
 	<iostream>
 
-1536874228 /home/alien/Documents/DailyGamerGit/DailyGamer/Header.h
+1536883653 /home/alien/Documents/DailyGamerGit/DailyGamer/Header.h
 	<gtkmm/window.h>
 	<gtkmm/toolbar.h>
 	<gtkmm/toolbutton.h>
@@ -4241,7 +4241,7 @@
 	<gtkmm/action.h>
 	<glibmm/interface.h>
 
-1536874202 source:/home/alien/Documents/DailyGamerGit/DailyGamer/main.cpp
+1536884025 source:/home/alien/Documents/DailyGamerGit/DailyGamer/main.cpp
 	"Header.h"
 	<gtkmm/application.h>
 

@@ -20,6 +20,10 @@ public:
     virtual ~AboutWindow();
 
 protected:
+//Child widgets:
+  Gtk::Frame fram;
+  Gtk::Box boxis;
+  Gtk::Label lab;
 };
 
 

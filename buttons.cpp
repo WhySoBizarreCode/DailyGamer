@@ -59,14 +59,30 @@ std::cout << "The Button was clicked." << std::endl;
 void win::on_Infobutton_click()
    {
 
-
+    windi.show_all_children();
     windi.show();
+
+
 
 }
 
-AboutWindow::AboutWindow()
+AboutWindow::AboutWindow():
+fram("Info"),
+lab("Daily Gamer was created in order to help gamers to clear the pc uninstalling those games that you don`t even know that are installed.\nAlso in order to help those gamers that are undecided when they have to choose one game to play \n\nCreated by Luis Pagola\nWebPage: www.BizarreCode.website",true)
 {
-this->hide();
+    this->set_default_size(300,300);
+    this->set_title("Info DailyGamer");
+    this->set_position(Gtk::WIN_POS_CENTER);
+    this->set_resizable(false);
+    this->set_border_width(10);
+
+//    this->set_transient_for (win);
+    this->hide();
+
+    boxis.set_orientation (Gtk::Orientation::ORIENTATION_VERTICAL);
+    fram.add(lab);
+    boxis.pack_start(fram,false,false,0);
+    add(boxis);
 
 }
 
