@@ -33,6 +33,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="Header.h" />
+		<Unit filename="RandomGame.cpp" />
 		<Unit filename="buttons.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>

@@ -49,9 +49,23 @@ AboutWindow::~AboutWindow()
 
 }
 
+WhatGame::~WhatGame()
+{
+
+}
+
 void win::on_button_clicked()
 {
-std::cout << "The Button was clicked." << std::endl;
+
+    string ret;
+    ret=game();
+
+
+    gami.lab.set_label(ret);
+
+    gami.show_all_children();
+    gami.show();
+//std::cout << "The Button was clicked." << std::endl;
 //std::cout << m_button.property_label() << std::endl;
 
 }
@@ -76,13 +90,37 @@ lab("Daily Gamer was created in order to help gamers to clear the pc uninstallin
     this->set_resizable(false);
     this->set_border_width(10);
 
-//    this->set_transient_for (win);
+//  this->set_transient_for (win);
     this->hide();
 
     boxis.set_orientation (Gtk::Orientation::ORIENTATION_VERTICAL);
     fram.add(lab);
     boxis.pack_start(fram,false,false,0);
     add(boxis);
+
+}
+
+
+WhatGame::WhatGame():
+fram("You have to play"),
+lab("",true)
+{
+
+string ret;
+ret=game();
+
+
+lab.set_label(ret);
+lab.show();
+
+this->set_default_size(300,300);
+this->set_title("DailyGamer");
+this->set_position(Gtk::WIN_POS_CENTER);
+this->set_border_width(10);
+
+//lab.property_label(ret);
+fram.add(lab);
+add(fram);
 
 }
 

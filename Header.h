@@ -12,6 +12,20 @@
 
 using namespace std;
 
+string game();
+class WhatGame : public Gtk::Window
+{
+public:
+    WhatGame();
+    virtual ~WhatGame();
+
+    Gtk::Label lab;
+protected:
+//Child widgets:
+  Gtk::Frame fram;
+
+};
+
 
 class AboutWindow : public Gtk::Window
 {
@@ -44,7 +58,7 @@ protected:
   Gtk::Button but2;
   Gtk::Box box;
   AboutWindow windi;
+  WhatGame gami;
 };
 
-string game();
 void unistallgm();
