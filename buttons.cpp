@@ -8,6 +8,8 @@ but2("Uninstall Games that you don't know that you have")
               m_button.signal_clicked().connect( sigc::mem_fun(*this,
                           &win::on_button_clicked) );
 
+                but2.signal_clicked().connect(sigc::mem_fun(*this,&win::on_CleanButton_clicked));
+
 
 box.set_orientation (Gtk::Orientation::ORIENTATION_VERTICAL);
 
@@ -54,6 +56,11 @@ WhatGame::~WhatGame()
 
 }
 
+CleanGames::~CleanGames()
+{
+
+}
+
 void win::on_button_clicked()
 {
 
@@ -67,6 +74,14 @@ void win::on_button_clicked()
     gami.show();
 //std::cout << "The Button was clicked." << std::endl;
 //std::cout << m_button.property_label() << std::endl;
+
+}
+
+void win::on_CleanButton_clicked(){
+    cleani.show_all_children();
+    cleani.show();
+
+
 
 }
 
@@ -121,6 +136,18 @@ this->set_border_width(10);
 //lab.property_label(ret);
 fram.add(lab);
 add(fram);
+
+}
+
+
+CleanGames::CleanGames(){
+
+this->set_default_size(300,600);
+this->set_title("Clean Library DailyGamer");
+this->set_position(Gtk::WIN_POS_CENTER);
+this->set_border_width(10);
+
+
 
 }
 

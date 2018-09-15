@@ -26,6 +26,20 @@ protected:
 
 };
 
+class CleanGames : public Gtk::Window
+{
+public:
+    CleanGames();
+    virtual ~CleanGames();
+
+    Gtk::Label lab;
+    Gtk::Button clean;
+protected:
+//Child widgets:
+  Gtk::Frame fram;
+
+};
+
 
 class AboutWindow : public Gtk::Window
 {
@@ -52,6 +66,7 @@ protected:
   //Signal handlers:
   void on_button_clicked();
   void on_Infobutton_click();
+  void on_CleanButton_clicked();
 
   //Child widgets:
   Gtk::Button m_button;
@@ -59,6 +74,7 @@ protected:
   Gtk::Box box;
   AboutWindow windi;
   WhatGame gami;
+  CleanGames cleani;
 };
 
 void unistallgm();
