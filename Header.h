@@ -10,6 +10,10 @@
 #include <gtkmm/frame.h>
 #include <gtkmm/label.h>
 
+#include <gtkmm/entry.h>
+//#include <gtkmm/dialog.h>
+#include <gtkmm/messagedialog.h>
+
 using namespace std;
 
 string game();
@@ -32,11 +36,16 @@ public:
     CleanGames();
     virtual ~CleanGames();
 
-    Gtk::Label lab;
+
+
     Gtk::Button clean;
+    Gtk::Entry ent,ent2,ent3,ent4,ent5,ent6,ent7,ent8,ent9,ent10;
 protected:
 //Child widgets:
-  Gtk::Frame fram;
+    Gtk::Frame fram;
+    Gtk::Box boxis;
+    Gtk::Label lab;
+    void on_Cclean_click();
 
 };
 

@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1536894620 source:/home/alien/Documents/DailyGamerGit/DailyGamer/buttons.cpp
+1537040680 source:/home/alien/Documents/DailyGamerGit/DailyGamer/buttons.cpp
 	"Header.h"
 	<iostream>
 
-1537040703 /home/alien/Documents/DailyGamerGit/DailyGamer/Header.h
+1537130459 /home/alien/Documents/DailyGamerGit/DailyGamer/Header.h
 	<gtkmm/window.h>
 	<gtkmm/toolbar.h>
 	<gtkmm/toolbutton.h>
@@ -11,6 +11,8 @@
 	<gtkmm/button.h>
 	<gtkmm/frame.h>
 	<gtkmm/label.h>
+	<gtkmm/entry.h>
+	<gtkmm/messagedialog.h>
 
 1513559420 /usr/include/gtkmm-3.0/gtkmm/window.h
 	<glibmm/ustring.h>
@@ -4330,4 +4332,204 @@
 	<time.h>
 	<vector>
 	<dirent.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/entry.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/widget.h>
+	<gtkmm/editable.h>
+	<gtkmm/menu.h>
+	<gtkmm/celleditable.h>
+	<gtkmm/entrycompletion.h>
+	<gtkmm/adjustment.h>
+	<gtkmm/image.h>
+	<gtkmm/border.h>
+	<gtkmm/entrybuffer.h>
+	<pangomm/attrlist.h>
+	<pangomm/tabarray.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/editable.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/interface.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/menu.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gdkmm/window.h>
+	<gtkmm/menushell.h>
+	<gtkmm/menuitem.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/menushell.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gdk/gdkkeysyms.h>
+	<gtkmm/container.h>
+	<gtkmm/menuitem.h>
+	<giomm/menumodel.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/menuitem.h
+	<gtkmmconfig.h>
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/bin.h>
+	<gtkmm/accelkey.h>
+	<gtkmm/accellabel.h>
+	<gtkmm/activatable.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/accellabel.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/label.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/celleditable.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/interface.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/entrycompletion.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/widget.h>
+	<gtkmm/celllayout.h>
+	<gtkmm/treemodel.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/celllayout.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<vector>
+	<glibmm/interface.h>
+	<gtkmm/cellrenderer.h>
+	<gtkmm/cellrenderer_generation.h>
+	<gtkmm/treemodel.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/cellrenderer.h
+	<gtkmmconfig.h>
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/widget.h>
+	<gtkmm/celleditable.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/cellrenderer_generation.h
+	<gtkmm/cellrenderertext.h>
+	<gtkmm/cellrendererpixbuf.h>
+	<gtkmm/cellrenderertoggle.h>
+	<gtkmm/cellrendereraccel.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/cellrenderertext.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/cellrenderer.h>
+	<pangomm/attrlist.h>
+	<pangomm/fontdescription.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/cellrendererpixbuf.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/cellrenderer.h>
+	<giomm/icon.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/cellrenderertoggle.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/cellrenderer.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/cellrendereraccel.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/cellrenderertext.h>
+	<gtkmm/accelkey.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/treemodel.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<vector>
+	<gtk/gtk.h>
+	<glibmm/interface.h>
+	<gtkmm/treeiter.h>
+	<gtkmm/treemodelcolumn.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/treeiter.h
+	<gtkmmconfig.h>
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/treemodelcolumn.h>
+	<iterator>
+	<gtk/gtk.h>
+	<cstddef>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/treemodelcolumn.h
+	<gtkmmconfig.h>
+	<glibmm/value.h>
+	<glib-object.h>
+	<vector>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/adjustment.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/object.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/image.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/misc.h>
+	<gtkmm/iconset.h>
+	<gdkmm/pixbufanimation.h>
+	<giomm/icon.h>
+
+1513559420 /usr/include/gdkmm-3.0/gdkmm/pixbufanimation.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/object.h>
+	<gdkmm/pixbuf.h>
+	<gdkmm/pixbufanimationiter.h>
+	<gdk-pixbuf/gdk-pixbuf.h>
+
+1513559420 /usr/include/gdkmm-3.0/gdkmm/pixbufanimationiter.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/object.h>
+	<gdkmm/pixbuf.h>
+	<glibmm/timeval.h>
+	<gdk-pixbuf/gdk-pixbuf.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/entrybuffer.h
+	<gtkmmconfig.h>
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<glibmm/object.h>
+	<gtkmmconfig.h>
+	<utility>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/dialog.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<vector>
+	<gtkmm/window.h>
+	<gtkmm/box.h>
+	<gtkmm/button.h>
+	<gtkmm/buttonbox.h>
+	<gtkmm/headerbar.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/buttonbox.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/box.h>
+	<gtkmm/hvbuttonbox.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/hvbuttonbox.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/buttonbox.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/headerbar.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/container.h>
+
+1513559420 /usr/include/gtkmm-3.0/gtkmm/messagedialog.h
+	<glibmm/ustring.h>
+	<sigc++/sigc++.h>
+	<gtkmm/dialog.h>
+	<gtkmm/enums.h>
 

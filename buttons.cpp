@@ -140,14 +140,52 @@ add(fram);
 }
 
 
-CleanGames::CleanGames(){
+CleanGames::CleanGames()
+:clean("Clean"){
 
-this->set_default_size(300,600);
+
+boxis.set_spacing(4);
+
+///entrys
+
+boxis.pack_start(ent,false,false,0);
+boxis.pack_start(ent2,false,false,0);
+boxis.pack_start(ent3,false,false,0);
+boxis.pack_start(ent4,false,false,0);
+boxis.pack_start(ent5,false,false,0);
+boxis.pack_start(ent6,false,false,0);
+boxis.pack_start(ent7,false,false,0);
+boxis.pack_start(ent8,false,false,0);
+boxis.pack_start(ent9,false,false,0);
+boxis.pack_start(ent10,false,false,0);
+
+///entrys *close
+
+boxis.set_orientation (Gtk::Orientation::ORIENTATION_VERTICAL);
+boxis.pack_end(clean,false,false,0);
+
+this->set_default_size(300,400);
 this->set_title("Clean Library DailyGamer");
 this->set_position(Gtk::WIN_POS_CENTER);
 this->set_border_width(10);
 
+add(boxis);
+
+ clean.signal_clicked().connect(sigc::mem_fun(*this,&CleanGames::on_Cclean_click));
+
 
 
 }
+
+
+void CleanGames::on_Cclean_click()
+   {
+        Gtk::MessageDialog dialog(*this, "This is an INFO MessageDialog");
+    dialog.set_secondary_text(
+          "And this is the secondary text that explains things.");
+
+    dialog.run();
+
+}
+
 
