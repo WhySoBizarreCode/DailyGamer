@@ -180,9 +180,17 @@ add(boxis);
 
 void CleanGames::on_Cclean_click()
    {
-        Gtk::MessageDialog dialog(*this, "This is an INFO MessageDialog");
+string entr,entr2;
+string resp;
+entr=ent.get_text();
+entr2=ent2.get_text();
+
+resp = unistallgm(entr,entr2);
+
+//retornar, strings de juegos uninstalleds
+        Gtk::MessageDialog dialog(*this, "The uninstall was");
     dialog.set_secondary_text(
-          "And this is the secondary text that explains things.");
+          resp);
 
     dialog.run();
 

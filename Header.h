@@ -17,6 +17,9 @@
 using namespace std;
 
 string game();
+string unistallgm(string ent, string ent2);
+
+
 class WhatGame : public Gtk::Window
 {
 public:
@@ -86,4 +89,3 @@ protected:
   CleanGames cleani;
 };
 
-void unistallgm();

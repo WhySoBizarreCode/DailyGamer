@@ -1,0 +1,18 @@
+j=0;
+cout << "Write the games that you have installed one by one";
+cout << endl;
+cout << "When you have mentioned your last game press x and then enter";
+cout << endl;
+cout << "All the games that you didn't mentioned will be eliminated";
+cout << endl;
+
+        while(thegame.compare("x") != 0){
+        cin >> thegame;
+            if(thegame.compare("x")!=0){
+            thegames[j]=thegame;
+            j++;
+            }
+
+
+
+        }
