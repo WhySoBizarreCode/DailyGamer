@@ -85,13 +85,14 @@ if ((d = opendir (pathi.c_str())) != NULL) {
 
 
 
-string unistallgm(string ent, string ent2) {
+string unistallgm(string ent, string ent2,string ent3,string ent4,string ent5,string ent6,string ent7,string ent8,string ent9,string ent10) {
 //system("pkexec sudo");
 
 int i=0;
 int k=0;
 int j=0;
 int dd=0;
+//int cant=0;
 bool unis = true;
 DIR           *d;
 struct dirent *dir;
@@ -129,10 +130,62 @@ if ((d = opendir (pathi.c_str())) != NULL) {
   perror ("");
 }
 ////////Hacer compare para no tomar Ents vacios y que elimine todo Steamapps
-thegames[0]=ent;
-j++;
-//thegames[1]=ent2;
-     //if (ent)// if ent =NULL return unsuc  **
+
+     if (ent!=""){
+        thegames[0]=ent;
+        j++;
+
+            if (ent2!=""){
+                thegames[1]=ent2;
+                j++;
+                           if (ent3!=""){
+                            thegames[2]=ent3;
+                            j++;
+
+                                        if (ent4!=""){
+                                thegames[3]=ent4;
+                                j++;
+
+
+                                            if (ent5!=""){
+                                    thegames[4]=ent5;
+                                    j++;
+
+
+                                                if (ent6!=""){
+                                        thegames[5]=ent6;
+                                        j++;
+
+
+                                                    if (ent7!=""){
+                                            thegames[6]=ent7;
+                                            j++;
+
+                                                    if (ent8!=""){
+                                            thegames[7]=ent8;
+                                            j++;
+
+                                                    if (ent9!=""){
+                                            thegames[8]=ent9;
+                                            j++;
+
+                                                    if (ent10!=""){
+                                            thegames[9]=ent10;
+                                            j++;
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+     }else{
+     return "Not successful";
+
+     }// if ent =NULL return unsuc  **
 
 
 

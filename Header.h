@@ -17,7 +17,7 @@
 using namespace std;
 
 string game();
-string unistallgm(string ent, string ent2);
+string unistallgm(string ent, string ent2,string ent3,string ent4,string ent5,string ent6,string ent7,string ent8,string ent9,string ent10);
 
 
 class WhatGame : public Gtk::Window

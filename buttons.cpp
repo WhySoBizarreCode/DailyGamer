@@ -180,12 +180,21 @@ add(boxis);
 
 void CleanGames::on_Cclean_click()
    {
-string entr,entr2;
+string entr,entr2,entr3,entr4,entr5,entr6,entr7,entr8,entr9,entr10;
 string resp;
 entr=ent.get_text();
 entr2=ent2.get_text();
+entr3=ent3.get_text();
+entr4=ent4.get_text();
+entr5=ent5.get_text();
+entr6=ent6.get_text();
+entr7=ent7.get_text();
+entr8=ent8.get_text();
+entr9=ent9.get_text();
+entr10=ent10.get_text();
 
-resp = unistallgm(entr,entr2);
+
+resp = unistallgm(entr,entr2,entr3,entr4,entr5,entr6,entr7,entr8,entr9,entr10);
 
 //retornar, strings de juegos uninstalleds
         Gtk::MessageDialog dialog(*this, "The uninstall was");
